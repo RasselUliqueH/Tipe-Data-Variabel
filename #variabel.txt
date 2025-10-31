@@ -1,0 +1,35 @@
+#variabel
+
+nama = "rasel"
+mapel_fav = 'Bindo'
+nilai = 94
+perempuan = False
+
+print("====Data Nilai====")
+print("nama: %s" % (nama))
+print("mapel_fav: %s, \nnlai: %d, \nperempuan %r" %(mapel_fav, nilai, perempuan))
+
+#Tugas
+
+barang_1 = "Roti"
+harga_1 = 10000
+barang_2 = "Susu"
+harga_2 = 15000
+barang_3 = "Selai"
+harga_3 = 17000
+barang_4 = "Gula"
+harga_4 = 22000
+barang_5 ="Kopi"
+harga_5 = 8000
+
+
+
+print("=====Selamat Datang di Tokomart=====")
+print("1.%s - Rp%d" %(barang_1, harga_1))
+print("2.%s - Rp%d" %(barang_2, harga_2))
+print("3.%s - Rp%d" %(barang_3, harga_3))
+print("4.%s - Rp%d" %(barang_4, harga_4))
+print("5.%s - Rp%d" %(barang_5, harga_5))
+print("Total Belanja = Gula + Kopi")
+total_belanja = harga_4+harga_5
+print(total_belanja)
